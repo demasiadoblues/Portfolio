@@ -1,6 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 40px;
   margin: 0;
   line-height: 1.6;
   background: #f9f9f9;
@@ -9,7 +8,7 @@ body {
 header {
   background: #333;
   color: #fff;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 nav {
@@ -28,7 +27,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   transition: color 0.3s ease;
-  font-size: 60px;
+  font-size: 1.5rem;
   padding: 0.5rem 1rem;
 }
 
@@ -43,12 +42,12 @@ section {
   margin-right: 5%;
 }
 
-h1 { font-size: 5.0rem; /* más grande para el título */
+h1 { font-size: 2.0rem; /* más grande para el título */
  }
 
 h2 {
   color: #333;
-  font-size: 4.0rem; /* subtítulos */
+  font-size: 2.0rem; /* subtítulos */
   margin-bottom: 1rem;
   position: relative;
 }
@@ -63,7 +62,7 @@ h2::after {
   animation: slideIn 1s ease-in-out;
 }
 
-p, li { font-size: 3rem; /* texto normal */ }
+p, li { font-size: 1.5rem; /* texto normal */ }
 
 .project, .gallery .item {
   margin-bottom: 1rem;
