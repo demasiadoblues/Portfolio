@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  font-size: 16px; /* tamaño base */
   margin: 0;
   line-height: 1.6;
   background: #f9f9f9;
@@ -38,8 +39,12 @@ section {
   animation: fadeIn 1s ease-in;
 }
 
+h1 { font-size: 2.2rem; /* más grande para el título */
+ }
+
 h2 {
   color: #333;
+  font-size: 1.8rem; /* subtítulos */
   margin-bottom: 1rem;
   position: relative;
 }
@@ -53,6 +58,8 @@ h2::after {
   margin-top: 5px;
   animation: slideIn 1s ease-in-out;
 }
+
+p, li { font-size: 1rem; /* texto normal */ }
 
 .project, .gallery .item {
   margin-bottom: 1rem;
