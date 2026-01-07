@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px; /* tamaño base */
+  
   margin: 0;
   line-height: 1.6;
   background: #f9f9f9;
@@ -9,6 +9,7 @@ body {
 header {
   background: #333;
   color: #fff;
+  font-size: 60px;
   padding: 1rem;
 }
 
