@@ -229,7 +229,11 @@ footer {
   }
 
   .nav-btn {
-    font-size: 18px;
-    padding: 6px;
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .nav-btn {
+    display: none; /* swipe + scroll natural */
   }
 }
