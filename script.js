@@ -22,3 +22,10 @@ function scrollFlyers(direction) {
   track.scrollLeft += direction * scrollAmount;
 }
 
+
+function scrollGallery(trackId, direction) {
+  const track = document.getElementById(trackId);
+  const scrollAmount = 340; // ajustable según tamaño
+  track.scrollLeft += direction * scrollAmount;
+}
+
