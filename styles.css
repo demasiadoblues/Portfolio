@@ -151,3 +151,20 @@ footer {
     padding: 1rem;
   }
 }
+.image-box {
+  width: 600px;       /* ancho fijo */
+  height: 200px;      /* alto fijo */
+  overflow: hidden;   /* oculta lo que se pasa del alto */
+  position: relative;
+}
+
+.image-box img {
+  width: 100%;        /* ocupa todo el ancho */
+  transition: transform 15s ease; /* animación suave */
+}
+
+/* Al hacer hover, la imagen se desplaza hacia arriba */
+.image-box:hover img {
+  transform: translateY(-100%); 
+}
+
