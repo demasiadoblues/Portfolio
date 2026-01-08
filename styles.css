@@ -168,3 +168,39 @@ footer {
   transform: translateY(-100%); 
 }
 
+.flyer-gallery {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+
+.flyer-track {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.flyer-track img {
+  width: 300px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.nav-btn {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}

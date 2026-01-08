@@ -15,3 +15,10 @@ const navMenu = document.querySelector("nav ul");
 toggle.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
+
+function scrollFlyers(direction) {
+  const track = document.getElementById('flyerTrack');
+  const scrollAmount = 320; // ancho imagen + margen
+  track.scrollLeft += direction * scrollAmount;
+}
+

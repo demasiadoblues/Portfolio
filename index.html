@@ -186,14 +186,39 @@ WordPress, HTML, CSS, JavaScript, Gutemberg, Astra Theme, plugins de SEO y optim
   <section id="multimedia">
     <h2>Diseño Multimedia</h2>
     <div class="gallery">
+      <div class="flyer-gallery">
+  <button class="nav-btn left" onclick="scrollFlyers(-1)">&#10094;</button>
+
+  <div class="flyer-track" id="flyerTrack">
+    <img src="images/CME-034/Especiero-1.png" alt="Flyer 1">
+    <img src="images/CME-034/Especiero-2.png" alt="Flyer 2">
+    <img src="images/CME-034/Especiero-3.png" alt="Flyer 3">
+    <img src="images/CME-034/Especiero-4.png" alt="Flyer 4">
+    <img src="images/CME-034/Especiero-5.png" alt="Flyer 5">
+    <img src="images/CME-034/Especiero-6.png" alt="Flyer 6">
+    <img src="images/CME-034/Especiero-7-b.png" alt="Flyer 7">
+    <img src="images/CME-034/Especiero-8.png" alt="Flyer 8">
+  </div>
+
+  <button class="nav-btn right" onclick="scrollFlyers(1)">&#10095;</button>
+</div>
+
       <div class="item">
-        <h3>Flyer</h3>
-        <a href="https://link-a-flyer.com" target="_blank">Ver flyer</a>
-      </div>
-      <div class="item">
-        <h3>Banner</h3>
-        <a href="https://link-a-banner.com" target="_blank">Ver banner</a>
-      </div>
+  <h3>Banners</h3>
+
+  <div class="flyer-gallery">
+    <button class="nav-btn left" onclick="scrollGallery('bannerTrack', -1)">&#10094;</button>
+
+    <div class="flyer-track" id="bannerTrack">
+      <img src="images/banners/banner1.jpg" alt="Banner 1">
+      <img src="images/banners/banner2.jpg" alt="Banner 2">
+      <img src="images/banners/banner3.jpg" alt="Banner 3">
+    </div>
+
+    <button class="nav-btn right" onclick="scrollGallery('bannerTrack', 1)">&#10095;</button>
+  </div>
+</div>
+
     </div>
   </section>
 
