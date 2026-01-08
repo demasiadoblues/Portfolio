@@ -29,3 +29,22 @@ function scrollGallery(trackId, direction) {
   track.scrollLeft += direction * scrollAmount;
 }
 
+// Botón "Volver arriba"
+const backToTop = document.getElementById("backToTop");
+
+backToTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+// Mostrar/ocultar el botón según el scroll
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTop.style.display = "block";
+  } else {
+    backToTop.style.display = "none";
+  }
+});
+
