@@ -231,5 +231,7 @@ footer {
     margin-right: 10px;
   }
 
-  
+  .nav-btn {
+    display: none;
+  }
 }
