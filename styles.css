@@ -208,3 +208,28 @@ footer {
 #bannerTrack img {
   width: 800px;
 }
+
+@media (max-width: 768px) {
+
+  /* Galerías en general */
+  .flyer-gallery {
+    max-width: 100%;
+  }
+
+  /* Flyers */
+  #flyerTrack img {
+    width: 90vw;     /* ocupa casi toda la pantalla */
+    margin-right: 10px;
+  }
+
+  /* Banners */
+  #bannerTrack img {
+    width: 95vw;     /* banners más anchos */
+    margin-right: 10px;
+  }
+
+  .nav-btn {
+    font-size: 18px;
+    padding: 6px;
+  }
+}
