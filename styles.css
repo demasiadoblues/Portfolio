@@ -62,7 +62,7 @@ h2::after {
   animation: slideIn 1s ease-in-out;
 }
 
-p, li { font-size: 1.5rem; /* texto normal */ }
+p, li { font-size: 1.3rem; /* texto normal */ }
 
 .project, .gallery .item {
   margin-bottom: 1rem;
@@ -231,19 +231,5 @@ footer {
     margin-right: 10px;
   }
 
-  .nav-btn {
-    display: none;
-  }
-}
-
-.flyer-track::-webkit-scrollbar {
-  display: none; /* oculta scrollbar fea en mobile */
-}
-
-.flyer-track {
-  scroll-snap-type: x mandatory;
-}
-
-.flyer-track img {
-  scroll-snap-align: start;
+  
 }
