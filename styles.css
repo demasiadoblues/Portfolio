@@ -235,8 +235,15 @@ footer {
     display: none;
   }
 }
-@media (max-width: 480px) {
-  .nav-btn {
-    display: none; /* swipe + scroll natural */
-  }
+
+.flyer-track::-webkit-scrollbar {
+  display: none; /* oculta scrollbar fea en mobile */
+}
+
+.flyer-track {
+  scroll-snap-type: x mandatory;
+}
+
+.flyer-track img {
+  scroll-snap-align: start;
 }
