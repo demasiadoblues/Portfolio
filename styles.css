@@ -69,10 +69,6 @@ p, li { font-size: 1.3rem; /* texto normal */ }
   transition: transform 0.3s ease;
 }
 
-.project:hover, .gallery .item:hover {
-  transform: scale(1.05);
-}
-
 .social-links {
   display: flex;
   gap: 1rem;
@@ -152,8 +148,8 @@ footer {
   }
 }
 .image-box {
-  width: 600px;       /* ancho fijo */
-  height: 200px;      /* alto fijo */
+  width: 1200px;       /* ancho fijo */
+  height: 600px;      /* alto fijo */
   overflow: hidden;   /* oculta lo que se pasa del alto */
   position: relative;
 }
@@ -267,4 +263,26 @@ footer {
 #backToTop:hover {
   background: #333;
   color: #fff;
+}
+#programs {
+  background: #f0f8ff; /* azul muy claro */
+  padding: 2rem;
+}
+.btn-project {
+  background-color: #333;
+  border: 1px;
+  border-color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px 10px;
+  color:#fff;
+}
+.btn-project:hover {
+  background-color: #fff;
+  border: 1px;
+  border-color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px 10px;
+  color:#333;
 }
